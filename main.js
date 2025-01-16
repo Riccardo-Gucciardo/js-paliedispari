@@ -31,19 +31,19 @@
 // numeri è pari o dispari (usando una funzione) Dichiariamo chi ha vinto.
 function botN (min,max){
   let casuale = Math.floor(Math.random()* max)+ min;
-  return random
+  
 
 }
 
 function vincitore (x){
   if(x % 2 === 0 && pariO === "pari"){
     dispariOPari= "pari"
-    return console.log("il numero è pari");
+     console.log("il numero è pari");
     
   }
   else{
     dispariOPari= "dispari"
-    return console.log("il numero è dispari");
+     console.log("il numero è dispari");
     
   }
 }
@@ -56,7 +56,7 @@ let dispariOPari = ""
 
 vincitore(somma)
 
-if(numero === dispariOpari){
+if(numero === dispariOPari){
   console.log("hai vinto!!!!!!!!!!!");
   
 }
